@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="diseño.css">
+    <script src="js/funciones.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <center> <br><br>
+    <div class="container">
+      <header>
+        <div class="titulo" id="titulo">
+          <div>Estudiantes:
+            <input type="text" name="introducir" id="introducir" value="">
+          </div>
+                    <br>
+          <div>CU:
+            <input type="text" name="introducir" id="introducir" value="">
+          </div>
+                    <br>
+          <div></div>
+        </div>
+      </header>
+
+      <div class="menu" id="menu">
+        <button>Pregunta 1 </button>
+        <button>Pregunta 2</button>
+        <button onclick="cargarPregunta3('insertar.php')">Pregunta 3</button>
+        <button onclick="conFetch('listar.php')">Pregunta 4</button>
+        <button onclick="cargarPagina('formN.html')">Pregunta 5</button>
+      </div>
+
+      <div class="flex">
+        <div class="contenido" id="contenido">
+        </div>
+        <div class="resultado" id="resultado">resultado</div>
+      </div>
+
+      <div class="mensaje" footer id="mensaje">
+        <p>2do Examen Parcial Sis-256</p>
+      </footer>
+    </div>
+
+        </center>  
+</body>
+</html>
